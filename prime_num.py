@@ -7,5 +7,16 @@ def is_prime(num):
             return False
     return True
 
-print(is_prime(100000))
-print(is_prime(10000019))
+
+
+
+def prime_list(num):
+    for n in range(1, num+1):
+        if is_prime(n):
+            print(n)
+        
+
+
+prime_list(5)
+
+        
