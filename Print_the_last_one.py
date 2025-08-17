@@ -3,7 +3,7 @@ import random
 
 Then, print it on the console. """
 def generate_random_array():
-    aux_Array =[]
+    aux_Array = []
     random_length = random.randint(0, 99)
     for i in range(random_length):
         aux_Array.append(random.randint(0, 99))
