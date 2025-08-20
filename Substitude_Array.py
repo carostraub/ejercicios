@@ -11,6 +11,6 @@ def substitude(value, new_value, group):
             return True
     return False
     
-result = substitude('BTS', 'BangTan Sonyeondan' ,bands)
+result = substitude('BTS', 'BangTan Sonyeondan', bands)
 print(result)
 print(bands)
